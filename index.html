@@ -10,18 +10,24 @@
 </head>
 <body>
     <div id="app">
-        <h1 v-if="logado">{{usuario}}</h1>
-        <input v-model="message" v-else>
-        {{message}}
+        <input v-model="email">
+        <input v-model="senha">
+
+        <p>{{senha}}</p>
+        <p>{{email}}</p>
+
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script>
         var app = new Vue({
             el: '#app',
+            //VARIAVEIS
             data: {
-                message: 'Faça o login', 
-                logado: false, 
-                usuario: "Sarah"
+                email:'',
+                senha:'',
+                message: 'Faça o Login' , 
+                logado: true ,
+                usuario: 'Marcelo'
             }
         })
     </script>
