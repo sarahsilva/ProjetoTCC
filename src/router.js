@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './views/Login.vue'
 import Cliente from './views/Cliente.vue'
-import Funcionario from './views/Funcionario.vue'
+import LoginSarah from './views/LoginSarah.vue'
 
 Vue.use(Router)
 
@@ -21,9 +21,9 @@ export default new Router({
       component: Cliente
     },
     {
-      path: '/funcionario',
-      name: 'funcionario',
-      component: Funcionario
+      path: '/LoginSarah',
+      name: 'LoginSarah',
+      component: LoginSarah
     }
   ]
 })

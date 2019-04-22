@@ -8,7 +8,7 @@
                         <v-container fluid>
                           <v-layout row wrap>
                             <v-flex xs12 sm12>
-                              <v-text-field label="Código do usuário:"></v-text-field>
+                              <v-text-field label="Usuário:"></v-text-field>
                               <v-text-field
                                 v-model="password"
                                 :append-icon="show1 ? 'visibility' : 'visibility_off'"
