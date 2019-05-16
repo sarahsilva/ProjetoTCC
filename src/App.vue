@@ -7,7 +7,7 @@
   		></v-toolbar-side-icon>
   		<v-spacer></v-spacer>
   		<v-toolbar-items>
-	      <v-btn flat>Sarah</v-btn>
+	      <v-btn flat>Sabrine é CORNA</v-btn>
 	    </v-toolbar-items>
   	</v-toolbar>
   	<v-navigation-drawer 
@@ -21,7 +21,7 @@
   		>
   			<v-list>
   				<v-list-tile-title class="ml-3">
-  					Horta Hidropônica
+  					Aquaponia na Escola
   				</v-list-tile-title>
   			</v-list>
   		</v-toolbar>
